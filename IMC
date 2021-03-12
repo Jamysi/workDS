@@ -1,0 +1,17 @@
+if( ResultadoIMC &gt 30 )
+
+   System.out.println("Obesidade");
+
+else if (ResultadoIMC &gt 25)
+
+   System.out.println("Acima do peso normal");
+
+else if (ResultadoIMC &gt 18.5)
+
+   System.out.println("Peso normal");
+
+else
+
+   System.out.println("Abaixo do peso normal");
+   
+   referencia do site https://www.guj.com.br/t/calculo-imc/37828
