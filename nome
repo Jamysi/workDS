@@ -1,0 +1,18 @@
+public class J0011 {
+
+    //Pedir data de nascimento e imprimir o nome do usuário
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        // 1) pedir pro usuário informar:
+            //1) Nome
+        System.out.println("Digite o seu nome: ");
+        String nome = in.nextLine();
+            //2) nascimento
+            System.out.println("Informe a sua data de nascimento: ");
+            int nascimento = in.nextInt();
+
+            System.out.print("Ola. Seu nome é "+nome);
+    }
+}
+
+referencias tiradas do site: http://excript.com/java/exercicio-java-lendo-imprimindo-texto-numeros.html
